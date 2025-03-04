@@ -1,0 +1,80 @@
+
+
+### **📌 JIO Coin DEX - Decentralized Exchange on Polygon Amoy**  
+
+![JIO Coin DEX](https://your-image-url.com) _(Optional: Add a project logo or screenshot)_
+
+## **🔹 Overview**  
+JIO Coin DEX is a **decentralized exchange (DEX)** built on **Polygon Amoy Testnet** that allows users to trade JIO Coins securely. It includes:  
+- **Smart Contract** written in **Rust (Ink!)**, deployed on **Polygon Amoy**.  
+- **Backend** in **Node.js** for managing API interactions.  
+- **Frontend** built with **React.js** for a seamless UI.  
+
+
+## **🔹 Tech Stack**  
+| Layer        | Technology |
+|-------------|------------|
+| **Blockchain**  | Polygon Amoy Testnet |
+| **Smart Contract** | Rust (Ink!) |
+| **Backend** | Node.js, Express.js |
+| **Frontend** | React.js, Web3.js, Ethers.js |
+| **Package Manager** | NPM |
+| **Version Control** | Git & GitHub |
+
+
+## **🔹 Project Structure**  
+
+jio_dex_project/
+│── jio_dex_backend/      # Backend Node.js server
+│── jio_dex_frontend/     # Frontend React.js UI
+│── JioDex/               # Smart contract (Rust, Ink!)
+
+## **🔹 Installation & Setup**  
+
+### **1️⃣ Clone the Repository**  
+
+git clone https://github.com/YourGitHubUsername/jio_dex_project.git
+cd jio_dex_project
+
+### **2️⃣ Smart Contract Setup (Ink!)**
+
+cd JioDex/jio_coin
+cargo +nightly contract build
+
+✅ **Output:** `jio_coin.contract` file generated.  
+
+📌 **Deploy using Remix IDE** with contract: `0x3081075617E13A3fd0B03d20A7a1bB6793E14BE4`  
+
+
+**3️⃣ Backend Setup (Node.js & Express)**
+cd ../jio_dex_backend
+npm install
+node index.js
+✅ **Output:** `JIO DEX Backend running on port 5000`  
+
+
+### **4️⃣ Frontend Setup (React.js)**
+
+cd ../jio_dex_frontend
+npm install
+npm start
+
+✅ **Output:** React UI should open at `http://localhost:3000/`  
+
+
+## **🔹 Usage Guide**  
+
+### **💰 Trading JIO Coins**  
+1️⃣ Connect MetaMask to **Polygon Amoy Testnet**  
+2️⃣ Load **JIO Coin DEX Frontend**  
+3️⃣ Select **Buy/Sell JIO Coins**  
+4️⃣ Confirm the transaction in MetaMask  
+
+
+## **🔹 License**  
+This project is **open-source** under the MIT License.  
+
+## **🔹 Contact**  
+📧 Email: your.email@example.com  
+🔗 GitHub: [YourGitHubUsername](https://github.com/YourGitHubUsername)  
+
